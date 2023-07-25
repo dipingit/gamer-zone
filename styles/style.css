@@ -11,6 +11,7 @@ body{
     background-color: #F948B2;
     color: white;
     cursor: pointer;
+    text-transform: uppercase;
 }
 
 /* nav section style */
@@ -71,7 +72,6 @@ nav{
     background-image: url("../images/Group\ 14.png");
     background-blend-mode: overlay;
     background-repeat: no-repeat;
-    height: 100%;
 }
 .banner-1{
     display: flex;
@@ -127,4 +127,53 @@ nav{
 }
 .btn-2{
     background-color:#4EC5F7;
+}
+
+/* banner-2 section */
+
+.banner-2-section{
+    background-image: url("../images/Group\ 14.png");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+}
+
+.banner-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1250px;
+    margin: 0 auto;
+    height: 100%;
+}
+.banner-2-photo{
+    width: 100%;
+}
+.banner-2-image{
+    width: 100%;
+}
+.banner-2-content{
+    text-align: right;
+    width: 60%;
+    margin-right: 40px;
+}
+.banner-2-title{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+.banner-2-description{
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.below-btn{
+    margin-top: 14px;
+}
+.banner-2-paragraph q{
+    font-weight: 500;
 }
