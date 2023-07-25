@@ -177,3 +177,39 @@ nav{
 .banner-2-paragraph q{
     font-weight: 500;
 }
+
+/* funny video section */
+.video-section-content{
+    text-align: center;
+}
+.video-image-content{
+    display: flex;
+    gap: 20px;
+    padding: 0 120px;
+}
+.video-section-title{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 13px;
+}
+.video-section-title span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.video-section-description{
+    color: #534C64;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.video-image-content .video-card{
+    padding: 15px;
+    text-align: center;
+}
+
+.image-container img {
+    height: auto;
+    width: 100%;
+  }
