@@ -185,7 +185,7 @@ nav{
 .video-image-content{
     display: flex;
     gap: 20px;
-    padding: 0 120px;
+    padding: 0 90px;
 }
 .video-section-title{
     color: #0B0223;
@@ -213,3 +213,42 @@ nav{
     height: auto;
     width: 100%;
   }
+
+/* poster-1 section */
+
+.poster-1-section{
+    padding-top: 20px;
+}
+.poster-1-content{
+    padding-left: 30px;
+}
+.poster-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 120px;
+    padding: 20px;
+  }
+  .poster-1-photo{
+    position: relative;
+    width: 50%;
+    padding-right: 80px;
+  }
+  .main-image{
+    width: 100%;
+  }
+  .secondary-image{
+    position: absolute;
+    bottom:-12%;
+    left: -12%;
+    width: 50%;
+  }
+  .secondary-photo{
+    width: 100%;
+  }
+  .poster-1-content{
+    text-align: right;
+    width: 70%;
+    margin: auto;
+  }
+  
