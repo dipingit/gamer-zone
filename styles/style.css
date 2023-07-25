@@ -252,3 +252,40 @@ nav{
     margin: auto;
   }
   
+  /* various game section */
+  .various-game-section{
+    margin-top: 28px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+  }
+  .game-section{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.game-section-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding: 20px;
+    text-align: center;
+
+} 
+.game-image{
+    width: 50px;
+}
+.game-type{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    padding:5px 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+}
+.game-type:hover{
+    color: #ff4ab6;
+    border: 1px solid #fa47b2;
+    padding:4px 9px;
+}
