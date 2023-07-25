@@ -174,7 +174,8 @@ nav{
 .below-btn{
     margin-top: 14px;
 }
-.banner-2-paragraph q{
+.banner-2-descrption q{
+    font-size: 1.5rem;
     font-weight: 500;
 }
 
