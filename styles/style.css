@@ -34,7 +34,10 @@ nav{
     display: flex;
     align-items: center;
     gap: 15px;
-    padding-left: 70px;
+}
+.logo-title{
+    font-size: 2rem;
+    font-weight: 700;
 }
 .logo-title span{
     color:#FF42A5;
@@ -57,6 +60,7 @@ nav{
     text-decoration: none;
     padding: 10px 15px;
     margin-right: 10px;
+    color: #3C354F;
 }
 .follow-us-anchor{
     border-radius: 8px;
@@ -354,3 +358,132 @@ nav{
     color: rgb(212, 212, 212);
     margin-bottom: 10px;
 }
+
+/* mobile responsive section */
+@media screen and (max-width: 576px) {
+    
+    .logo-image{
+        width: 70px;
+    }
+    .logo-section{
+        padding-top: 20px;
+    }
+    nav, .menu-section{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+        gap: 20px;
+    }
+    .banner-1-image, .banner-1-photo{
+        width: 100%;
+        margin-left: 10px;
+    }
+    .banner-1-section{
+        background-size:contain;
+        background-position: bottom;
+        padding: 60px 0;
+    }
+    .banner-1{
+        flex-direction: column-reverse;
+    }
+    .banner-2-section{
+        background-size:contain;
+        background-position: bottom;
+    }
+    .banner-2-content{
+        margin-left: 40px ;
+    }
+    .poster-1,
+    .video-image-content,
+    .banner-2,
+    .menu-section,
+    nav{
+        flex-direction: column;
+        padding: 10px;
+        gap: 20px;
+    }
+
+    .banner-1{
+        flex-direction:column-reverse;
+        padding: 20px 20px;
+    }
+    .poster-1-photo,
+    .banner-1-content,
+    .banner-2-content,
+    .poster-1-content{
+        width: 100%;
+        padding: 10px;
+        
+    }
+  
+    .poster-1-content,
+    .banner-2-content{
+        text-align: center;
+    }
+    .banner-1-content{
+        width: fit-content;
+        margin: auto;
+        padding: 0px 20px;
+    }
+    .banner-1-button{
+        gap: 5px;
+        padding: 10px 0px 0px 0px;
+    }
+
+    .banner-1-title-2{
+        font-size: 4rem;
+    }
+    .banner-1-title,
+    .video-section-title{
+        font-size: 2rem;
+    }
+
+    .video-section-content{
+        padding-top: 30px;
+    }
+    .game-section-content {
+        padding:5px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 5px;
+    }
+    .game-image{
+        width: 25px;
+    }
+    .game-paragraph{
+        font-size: 10px;
+    }
+    .story-content {
+        padding:5px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 10px;
+        width: 100%;
+    }
+
+    .social-link{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    
+    .privacy-content
+    {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .footer-p,
+    .privacy-content p
+    {
+        font-size: 12px;
+    }
+    .story-content > h3{
+        font-size: smaller;
+        font-weight: 400;
+    }
+    .footer-content{
+        padding: 10px;
+    }
+
+}
+
+/* mobile responsive end */
