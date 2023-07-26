@@ -34,6 +34,7 @@ nav{
     display: flex;
     align-items: center;
     gap: 15px;
+    padding-left: 40px;
 }
 .logo-title{
     font-size: 2rem;
@@ -87,12 +88,13 @@ nav{
     justify-content: space-between;
 }
 .banner-1-content{
-    padding-left: 40px;
+    padding-left: 60px;
     padding-top: 90px;
 }
 .banner-1-content li{
     list-style: none;
     margin-top: 10px;
+    padding-left: 40px;
 }
 .fa-circle-down,
 .fa-circle-play{
@@ -122,7 +124,7 @@ nav{
 }
 .banner-1-photo{
     width: 50%;
-    padding-right: 40px;
+    padding-right: 90px;
 
 }
 .banner-1-image{
@@ -191,6 +193,7 @@ nav{
 /* funny video section */
 .video-section-content{
     text-align: center;
+    padding-top: 20px;
 }
 .video-image-content{
     display: flex;
@@ -376,7 +379,7 @@ nav{
     }
     .banner-1-image, .banner-1-photo{
         width: 100%;
-        margin-left: 10px;
+        margin-left: 20px;
     }
     .banner-1-section{
         background-size:contain;
@@ -385,6 +388,9 @@ nav{
     }
     .banner-1{
         flex-direction: column-reverse;
+    }
+    .banner-1-button{
+        margin-left: 40px;
     }
     .banner-2-section{
         background-size:contain;
